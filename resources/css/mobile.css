@@ -1,0 +1,66 @@
+
+/*media query  css For Mobile screen*/
+@media only screen and (max-width:670px) {
+
+  .header{
+    height:17rem;
+    background-position: 20%;
+  }
+
+  .logo span{
+    display:none;
+  }
+
+
+
+  .mobile-nav{
+    width: 100%;
+    display:block;
+    color:white;
+    float:right;
+    text-align: right;
+    margin-right: 5rem;
+  }
+
+  .nav ul li{
+    display:none;
+  }
+  .banner{
+    height:3rem;
+    margin-top:9rem;
+    margin-left: 0;
+    width:100%;
+  }
+  .banner span{
+    font-size:1rem;
+    margin: 1rem auto;
+
+  }
+
+  .productsandservices{
+    height:24rem;
+    margin-top: 3.77rem;
+    flex-flow: column;
+    align-items: center;
+  }
+  .details{
+    height:34rem;
+    margin-top: 3.77rem;
+    flex-flow: column;
+    align-items: center;
+}
+.philosophy , .appointment{
+   align-items: center;
+}
+
+  .footer span{
+    display:none;
+  }
+  .footer img{
+    margin:0;
+  }
+  .footer {
+    justify-content: center;
+  }
+
+}
